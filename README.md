@@ -7,3 +7,9 @@ e `p=arg` caso `BENCHMARK` seja `FALSE`.
 
 Se a macro `OUTPUT` for `FALSE` o programa não exibirá os números primos na tela mas exibirá se
 `OUTPUT` for `TRUE`.
+
+Faça download do programa usando o `wget` com o comando:
+
+```bash
+wget -q github.com/ismaeldamiao/crivo/raw/main/crivo.c
+```
