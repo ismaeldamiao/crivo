@@ -65,7 +65,7 @@ int main(int argc, char **argv){
       A array eh uma lista-verdade, todas as posicoes marcadas com TRUE
       sao numeros primos em potencial
    *** */
-   for(i = 1; i <= p; i++) v[i] = TRUE;
+   for(i = 1; i <= p; ++i) v[i] = TRUE;
 
    #if OUTPUT
    fprintf(stdout, "Os primos ate %ld sao:\n1 ", p);
